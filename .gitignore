@@ -1,3 +1,15 @@
 #ecom...
 ecom/env
+ecom/**/*.pyc
+ecom/**/__pycache__
+ecom/media
+ecom/.DS_Store
 ecom/*.sqlite3
+ecom/*.env
+
+# Accept these files in the repository
+!.gitignore
+ecom/!.travis.yml
+ecom/.env
+ecom/.vscode
+ecom/.idea
